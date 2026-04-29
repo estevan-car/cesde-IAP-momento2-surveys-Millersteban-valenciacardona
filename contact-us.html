@@ -1,11 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>contacto</title>
 </head>
 <body>
+
+    <header>
+        <h1>Contactenos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contact-us.html">Encuesta</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <form action="">
+
+            <label for="">Nombre:
+                <input type="text" required>
+            </label>
+
+            <label for="">Telefono
+                <input type="tel" required>
+            </label>
+
+            <label for="">Correo:
+                <input type="email" required>
+            </label>
+
+            <p>¿Que tipo de usuario eres?</p>
+            <label for=""><input type="radio" name="tipo" required>Estudiante</label>
+            <label for=""><input type="radio" name="tipo">Docente</label>
+
+
+            <p>¿Que deseas aprender?</p>
+            <label for=""><input type="radio" name="tipo" required>Programacion</label>
+            <label for=""><input type="radio" name="tipo">Bases de datos</label>
+            <label for=""><input type="radio" name="tipo">IA</label>
+            <label for=""><input type="radio" name="tipo">Ciberseguridad</label>
+
+            <p>¿Donde te encuentras?</p>
+            <select>
+                <option>Colombia</option>
+                <option>Peru</option>
+                <option>Ecuador</option>
+                <option>Brazil</option>
+                <option>Argentina</option>
+            </select>
+
+            <p>Mensaje:</p>
+            <textarea></textarea>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+    </main>
+
+    <footer>
+
+        <p>Miller Steban Valencia Cardona - 2026 - Curso IAP</p>
+        <p>Proyecto académico sin frameworks - 2026 Momento 2</p>
+
+    </footer>
     
 </body>
 </html>
